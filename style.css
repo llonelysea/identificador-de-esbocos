@@ -1,0 +1,45 @@
+#body{
+    background-color: #FCDEBE;
+}
+
+.mbtn{
+    color: #928779;
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 5px;
+    font-weight: bold;
+    float: unset;
+}
+
+#titulo{
+    color: #3A445D;
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 7px;
+}
+
+.nota{
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 5px;
+    color: #5E5768;
+}
+
+#div{
+    background-color: #AD9B93 ;
+}
+
+canvas{
+    border: 3px solid #A27E8E;
+    border-radius: 10px;
+    animation-name: animacao;
+    animation-duration: 4s;
+    margin-top: 200px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animacao{
+    from{
+        box-shadow: 1px 1px 38px #A27E8E;
+    };
+    to{
+        box-shadow: 1px 1px 39px #343F3E;
+    };
+};
